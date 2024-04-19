@@ -1,0 +1,17 @@
+Historia de Usuario: Inicio de Sesión con Correo Electrónico
+
+Como usuario de la plataforma,
+Quiero poder iniciar sesión utilizando únicamente mi dirección de correo electrónico,
+Para acceder fácilmente a mi cuenta sin la necesidad de recordar un nombre de usuario adicional.
+
+Criterios de Aceptación:
+
+Se debe proporcionar un campo de entrada en la página de inicio de sesión para ingresar la dirección de correo electrónico.
+Al enviar el formulario de inicio de sesión con la dirección de correo electrónico, el sistema debe verificar la validez del correo electrónico proporcionado.
+Si la dirección de correo electrónico es válida y corresponde a una cuenta registrada, el sistema debe permitir el acceso a la cuenta asociada.
+Si la dirección de correo electrónico no está asociada con ninguna cuenta registrada, se debe mostrar un mensaje de error indicando que la cuenta no existe.
+La plataforma debe garantizar la seguridad y privacidad de la información del usuario durante el proceso de inicio de sesión.
+Notas Adicionales:
+
+El proceso de inicio de sesión con correo electrónico debe ser simple y directo, minimizando la fricción para el usuario.
+La plataforma debe proporcionar retroalimentación clara en caso de errores, como direcciones de correo electrónico incorrectas o cuentas no registradas.
